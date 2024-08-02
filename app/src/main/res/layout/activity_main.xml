@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        app:cardCornerRadius="30.dp"
+        app:cardCornerRadius="30dp"
         android:background="@color/white">
 
         <LinearLayout
@@ -60,6 +60,7 @@
                 android:layout_marginTop="20dp">
 
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Example:John"
@@ -69,10 +70,10 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/btn_Start"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Start"
-
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
